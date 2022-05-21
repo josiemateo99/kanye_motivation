@@ -17,4 +17,4 @@ struct QouteBox_Previews: PreviewProvider {
     static var previews: some View {
         QouteBox()
     }
-}XQY6ER6JHEQ1QXKY
+}
