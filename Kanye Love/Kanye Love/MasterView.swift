@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MasterView.swift
 //  Kanye Love
 //
 //  Created by Josephine Mateo on 5/20/22.
@@ -7,15 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MasterView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ZStack{
+            Background()
+            Text("Testing")
+                .foregroundColor(.white)
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MasterView()
     }
 }

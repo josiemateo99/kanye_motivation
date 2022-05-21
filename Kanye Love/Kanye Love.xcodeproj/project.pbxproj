@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72722837F95900180A07 /* Kanye_LoveApp.swift */; };
-		46CF72752837F95900180A07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72742837F95900180A07 /* ContentView.swift */; };
+		46CF72752837F95900180A07 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72742837F95900180A07 /* MasterView.swift */; };
 		46CF72772837F95B00180A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF72762837F95B00180A07 /* Assets.xcassets */; };
 		46CF727A2837F95B00180A07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF72792837F95B00180A07 /* Preview Assets.xcassets */; };
+		46CF728D2838055300180A07 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF728C2838055300180A07 /* Background.swift */; };
+		46CF728F28386C8100180A07 /* qoutesSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF728E28386C8100180A07 /* qoutesSwift.swift */; };
+		46CF729128391D1800180A07 /* QouteBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF729028391D1800180A07 /* QouteBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46CF726F2837F95900180A07 /* Kanye Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF72722837F95900180A07 /* Kanye_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_LoveApp.swift; sourceTree = "<group>"; };
-		46CF72742837F95900180A07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46CF72742837F95900180A07 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		46CF72762837F95B00180A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CF72792837F95B00180A07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46CF728C2838055300180A07 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		46CF728E28386C8100180A07 /* qoutesSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qoutesSwift.swift; sourceTree = "<group>"; };
+		46CF729028391D1800180A07 /* QouteBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QouteBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,10 @@
 		46CF72712837F95900180A07 /* Kanye Love */ = {
 			isa = PBXGroup;
 			children = (
+				46CF72802837FF0A00180A07 /* Service */,
+				46CF72812837FF1900180A07 /* SubView */,
+				46CF72742837F95900180A07 /* MasterView.swift */,
 				46CF72722837F95900180A07 /* Kanye_LoveApp.swift */,
-				46CF72742837F95900180A07 /* ContentView.swift */,
 				46CF72762837F95B00180A07 /* Assets.xcassets */,
 				46CF72782837F95B00180A07 /* Preview Content */,
 			);
@@ -65,6 +73,47 @@
 				46CF72792837F95B00180A07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46CF72802837FF0A00180A07 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				46CF728E28386C8100180A07 /* qoutesSwift.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		46CF72812837FF1900180A07 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				46CF728B2838053E00180A07 /* Background */,
+				46CF7288283804A800180A07 /* Qoute */,
+				46CF7289283804B600180A07 /* Settings */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		46CF7288283804A800180A07 /* Qoute */ = {
+			isa = PBXGroup;
+			children = (
+				46CF729028391D1800180A07 /* QouteBox.swift */,
+			);
+			path = Qoute;
+			sourceTree = "<group>";
+		};
+		46CF7289283804B600180A07 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		46CF728B2838053E00180A07 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				46CF728C2838055300180A07 /* Background.swift */,
+			);
+			path = Background;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CF72752837F95900180A07 /* ContentView.swift in Sources */,
+				46CF729128391D1800180A07 /* QouteBox.swift in Sources */,
+				46CF72752837F95900180A07 /* MasterView.swift in Sources */,
 				46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */,
+				46CF728F28386C8100180A07 /* qoutesSwift.swift in Sources */,
+				46CF728D2838055300180A07 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

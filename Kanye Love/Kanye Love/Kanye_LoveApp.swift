@@ -11,7 +11,7 @@ import SwiftUI
 struct Kanye_LoveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MasterView()
         }
     }
 }
