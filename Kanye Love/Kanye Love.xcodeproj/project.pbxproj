@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460AAD16283B063300F8B888 /* Chapaza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chapaza.ttf; path = ../../../../../Downloads/chapaza/Chapaza.ttf; sourceTree = "<group>"; };
 		46CF726F2837F95900180A07 /* Kanye Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF72722837F95900180A07 /* Kanye_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_LoveApp.swift; sourceTree = "<group>"; };
 		46CF72742837F95900180A07 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
@@ -38,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		460AAD15283B053E00F8B888 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				460AAD16283B063300F8B888 /* Chapaza.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		46CF72662837F95900180A07 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +66,7 @@
 		46CF72712837F95900180A07 /* Kanye Love */ = {
 			isa = PBXGroup;
 			children = (
+				460AAD15283B053E00F8B888 /* Font */,
 				46CF72802837FF0A00180A07 /* Service */,
 				46CF72812837FF1900180A07 /* SubView */,
 				46CF72742837F95900180A07 /* MasterView.swift */,

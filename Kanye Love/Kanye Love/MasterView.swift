@@ -12,8 +12,12 @@ struct MasterView: View {
         
         ZStack{
             Background()
-            Text("Testing")
-                .foregroundColor(.white)
+            QouteBox()
+                .position(x: 190, y: 250)
+
+        
+            
+            
         }
         
     }
