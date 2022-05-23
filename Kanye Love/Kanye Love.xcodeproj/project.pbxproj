@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		460AAD1D283BFB7700F8B888 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460AAD1C283BFB7700F8B888 /* Launch Screen.storyboard */; };
+		4699DA91283C0956008A013D /* backgroundChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699DA90283C0956008A013D /* backgroundChanger.swift */; };
 		46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72722837F95900180A07 /* Kanye_LoveApp.swift */; };
 		46CF72752837F95900180A07 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72742837F95900180A07 /* MasterView.swift */; };
 		46CF72772837F95B00180A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF72762837F95B00180A07 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		460AAD16283B063300F8B888 /* Chapaza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chapaza.ttf; path = ../../../../../Downloads/chapaza/Chapaza.ttf; sourceTree = "<group>"; };
 		460AAD1C283BFB7700F8B888 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4699DA90283C0956008A013D /* backgroundChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundChanger.swift; sourceTree = "<group>"; };
 		46CF726F2837F95900180A07 /* Kanye Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF72722837F95900180A07 /* Kanye_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_LoveApp.swift; sourceTree = "<group>"; };
 		46CF72742837F95900180A07 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				46CF728E28386C8100180A07 /* qoutesSwift.swift */,
+				4699DA90283C0956008A013D /* backgroundChanger.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4699DA91283C0956008A013D /* backgroundChanger.swift in Sources */,
 				46CF729128391D1800180A07 /* QouteBox.swift in Sources */,
 				46CF72752837F95900180A07 /* MasterView.swift in Sources */,
 				46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */,

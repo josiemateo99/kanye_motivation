@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct Background: View {
+    @State var randomInt = Int.random(in: 1..<wallpaper.count-1)
     var body: some View {
         ZStack{
             
         }
-        .background(Image("handsUp"))
+        .background(Image(wallpaper[randomInt]))
         
     }
 }

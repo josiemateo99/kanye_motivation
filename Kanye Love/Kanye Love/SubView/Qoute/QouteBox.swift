@@ -23,15 +23,27 @@ struct QouteBox: View {
             
                 
                 var qoute = getQoute(num: randomInt)
-            
-                Button("Refresh Qoute") {
-                    
-                    randomInt = Int.random(in: 1..<qoutes.count-1)
-                    qoute = getQoute(num: randomInt)
-                    
+           
                 
-                }.position(x: 200, y: 530)
-                .foregroundColor(.white)
+            Button(action:{
+                randomInt = Int.random(in: 1..<qoutes.count-1)
+                qoute = getQoute(num: randomInt)
+            }){
+                Text("Refresh Qoute")
+                    .foregroundColor(.black)
+                    .scaledToFit()
+                    .padding()
+                    .background(
+                        Color.white
+                        .cornerRadius(11)
+                        .shadow(color: .white, radius: 11)
+                        .opacity(0.91)
+                        
+                    )
+                
+                
+            }.position(x: 198, y: 535)
+            
             
                 Text(qoute)
                     .foregroundColor(.black)
@@ -40,7 +52,7 @@ struct QouteBox: View {
                     .scaledToFill()
              
                 
-                
+                    
                 
              
 
@@ -53,6 +65,7 @@ struct QouteBox: View {
 struct QouteBox_Previews: PreviewProvider {
     static var previews: some View {
         QouteBox()
+            .preferredColorScheme(.dark)
     
     }
 }
