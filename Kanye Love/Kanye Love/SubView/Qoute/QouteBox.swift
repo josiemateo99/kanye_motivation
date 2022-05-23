@@ -7,7 +7,11 @@
 
 import SwiftUI
 
+
 struct QouteBox: View {
+    
+    @State var randomInt = Int.random(in: 1..<qoutes.count-1)
+    
     var body: some View {
         ZStack{
             Rectangle()
@@ -16,13 +20,29 @@ struct QouteBox: View {
                 .opacity(0.91)
                 .frame(width: 280, height: 200)
                 .shadow(color: .white, radius: 11)
-
-                let qoute = getQoute()
+            
+                
+                var qoute = getQoute(num: randomInt)
+            
+                Button("Refresh Qoute") {
+                    
+                    randomInt = Int.random(in: 1..<qoutes.count-1)
+                    qoute = getQoute(num: randomInt)
+                    
+                
+                }.position(x: 200, y: 530)
+                .foregroundColor(.white)
+            
                 Text(qoute)
                     .foregroundColor(.black)
                     .frame(width: 270, height: 100, alignment: .center)
                     .multilineTextAlignment(.center)
                     .scaledToFill()
+             
+                
+                
+                
+             
 
         }
     }

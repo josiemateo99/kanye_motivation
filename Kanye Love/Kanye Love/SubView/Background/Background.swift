@@ -12,12 +12,11 @@ struct Background: View {
         ZStack{
             
         }
-        .background(Image("handsUp")
-        )
+        .background(Image("handsUp"))
         
     }
 }
-
+ 
 struct Background_Previews: PreviewProvider {
     static var previews: some View {
         Background()

@@ -14,7 +14,6 @@ struct MasterView: View {
             Background()
             QouteBox()
                 .position(x: 200, y: 250)
-            GetNewQouteButton()
         }
         
     }

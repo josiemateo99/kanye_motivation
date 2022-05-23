@@ -127,11 +127,10 @@ let qoutes: [String] = [
 ]
 
 
-func getQoute() -> String{
-    
-    let rand = Int.random(in: 0...qoutes.count - 1)
+func getQoute(num: Int) -> String{
 
-    return qoutes[rand]
+    
+    return qoutes[num]
     
 }
 

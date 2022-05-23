@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		460AAD1A283B150600F8B888 /* GetNewQouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460AAD19283B150600F8B888 /* GetNewQouteButton.swift */; };
+		460AAD1D283BFB7700F8B888 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460AAD1C283BFB7700F8B888 /* Launch Screen.storyboard */; };
 		46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72722837F95900180A07 /* Kanye_LoveApp.swift */; };
 		46CF72752837F95900180A07 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72742837F95900180A07 /* MasterView.swift */; };
 		46CF72772837F95B00180A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF72762837F95B00180A07 /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		460AAD16283B063300F8B888 /* Chapaza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chapaza.ttf; path = ../../../../../Downloads/chapaza/Chapaza.ttf; sourceTree = "<group>"; };
-		460AAD19283B150600F8B888 /* GetNewQouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewQouteButton.swift; sourceTree = "<group>"; };
+		460AAD1C283BFB7700F8B888 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		46CF726F2837F95900180A07 /* Kanye Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF72722837F95900180A07 /* Kanye_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_LoveApp.swift; sourceTree = "<group>"; };
 		46CF72742837F95900180A07 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
@@ -47,6 +47,14 @@
 				460AAD16283B063300F8B888 /* Chapaza.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		460AAD1E283BFB7F00F8B888 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				460AAD1C283BFB7700F8B888 /* Launch Screen.storyboard */,
+			);
+			path = "Launch Screen";
 			sourceTree = "<group>";
 		};
 		46CF72662837F95900180A07 = {
@@ -98,6 +106,7 @@
 		46CF72812837FF1900180A07 /* SubView */ = {
 			isa = PBXGroup;
 			children = (
+				460AAD1E283BFB7F00F8B888 /* Launch Screen */,
 				46CF728B2838053E00180A07 /* Background */,
 				46CF7288283804A800180A07 /* Qoute */,
 				46CF7289283804B600180A07 /* Settings */,
@@ -109,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				46CF729028391D1800180A07 /* QouteBox.swift */,
-				460AAD19283B150600F8B888 /* GetNewQouteButton.swift */,
 			);
 			path = Qoute;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460AAD1D283BFB7700F8B888 /* Launch Screen.storyboard in Resources */,
 				46CF727A2837F95B00180A07 /* Preview Assets.xcassets in Resources */,
 				46CF72772837F95B00180A07 /* Assets.xcassets in Resources */,
 			);
@@ -199,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460AAD1A283B150600F8B888 /* GetNewQouteButton.swift in Sources */,
 				46CF729128391D1800180A07 /* QouteBox.swift in Sources */,
 				46CF72752837F95900180A07 /* MasterView.swift in Sources */,
 				46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */,
@@ -339,6 +347,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,6 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
