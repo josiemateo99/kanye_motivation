@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 let qoutes: [String] = [
     "2024",
@@ -129,7 +130,8 @@ let qoutes: [String] = [
 func getQoute() -> String{
     
     let rand = Int.random(in: 0...qoutes.count - 1)
-    
+
     return qoutes[rand]
+    
 }
 

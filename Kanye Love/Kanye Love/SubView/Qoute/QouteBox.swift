@@ -22,10 +22,13 @@ struct QouteBox: View {
                     .foregroundColor(.black)
                     .frame(width: 270, height: 100, alignment: .center)
                     .multilineTextAlignment(.center)
+                    .scaledToFill()
 
         }
     }
 }
+
+
 
 struct QouteBox_Previews: PreviewProvider {
     static var previews: some View {

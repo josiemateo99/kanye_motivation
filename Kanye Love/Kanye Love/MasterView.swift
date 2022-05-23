@@ -13,18 +13,17 @@ struct MasterView: View {
         ZStack{
             Background()
             QouteBox()
-                .position(x: 190, y: 250)
-
-        
-            
-            
+                .position(x: 200, y: 250)
+            GetNewQouteButton()
         }
         
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         MasterView()
+            .previewInterfaceOrientation(.portrait)
     }
 }

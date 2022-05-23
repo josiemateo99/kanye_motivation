@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460AAD1A283B150600F8B888 /* GetNewQouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460AAD19283B150600F8B888 /* GetNewQouteButton.swift */; };
 		46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72722837F95900180A07 /* Kanye_LoveApp.swift */; };
 		46CF72752837F95900180A07 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CF72742837F95900180A07 /* MasterView.swift */; };
 		46CF72772837F95B00180A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CF72762837F95B00180A07 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		460AAD16283B063300F8B888 /* Chapaza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chapaza.ttf; path = ../../../../../Downloads/chapaza/Chapaza.ttf; sourceTree = "<group>"; };
+		460AAD19283B150600F8B888 /* GetNewQouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewQouteButton.swift; sourceTree = "<group>"; };
 		46CF726F2837F95900180A07 /* Kanye Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanye Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF72722837F95900180A07 /* Kanye_LoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanye_LoveApp.swift; sourceTree = "<group>"; };
 		46CF72742837F95900180A07 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				46CF729028391D1800180A07 /* QouteBox.swift */,
+				460AAD19283B150600F8B888 /* GetNewQouteButton.swift */,
 			);
 			path = Qoute;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460AAD1A283B150600F8B888 /* GetNewQouteButton.swift in Sources */,
 				46CF729128391D1800180A07 /* QouteBox.swift in Sources */,
 				46CF72752837F95900180A07 /* MasterView.swift in Sources */,
 				46CF72732837F95900180A07 /* Kanye_LoveApp.swift in Sources */,
