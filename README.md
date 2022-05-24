@@ -4,9 +4,7 @@
 
 # Gif Demonstration
 
-
-
-
+![KanyeGIF](https://user-images.githubusercontent.com/65267381/170109719-3c867bb8-2819-4b5d-be3d-13b9ea8d5646.gif)
 
 # How to Use
 
